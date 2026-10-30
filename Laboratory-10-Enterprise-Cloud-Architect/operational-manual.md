@@ -1,4 +1,4 @@
-# Operational Manual: CloudNova Private Cloud (WordPress + MariaDB)
+# Operational Manual: (WordPress + MariaDB)
 
 ## 1. Overview
 This manual is the handover document for the client's IT team. It describes a two-tier private cloud application: a WordPress web tier and a MariaDB database tier, each running in its own Docker container on an Ubuntu Server virtual machine. The server is secured with a UFW firewall using a Default Deny policy, stores its database on persistent volumes so data survives reboots, and backs itself up automatically through a Bash script scheduled with cron.
